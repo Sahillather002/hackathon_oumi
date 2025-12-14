@@ -53,24 +53,44 @@ export class TrainingService {
     status?: string;
     search?: string;
   }) {
-    const where: Prisma.TrainingJobWhereInput = {};
+    try {
+      const where: Prisma.TrainingJobWhereInput = {};
 
-    if (filters?.status && filters.status !== 'all') {
-      where.status = filters.status;
+      if (filters?.status && filters.status !== 'all') {
+        where.status = filters.status;
+      }
+
+      if (filters?.search) {
+        const searchLower = filters.search.toLowerCase();
+        // SQLite doesn't support case-insensitive mode, so we filter in memory
+        // or use a workaround with multiple OR conditions
+        where.OR = [
+          { name: { contains: filters.search } },
+          { model: { contains: filters.search } },
+          { dataset: { contains: filters.search } },
+        ];
+      }
+
+      const jobs = await db.trainingJob.findMany({
+        where,
+        orderBy: { createdAt: 'desc' },
+      });
+
+      // If search was provided, filter case-insensitively in memory for SQLite
+      if (filters?.search) {
+        const searchLower = filters.search.toLowerCase();
+        return jobs.filter(job => 
+          job.name.toLowerCase().includes(searchLower) ||
+          job.model.toLowerCase().includes(searchLower) ||
+          job.dataset.toLowerCase().includes(searchLower)
+        );
+      }
+
+      return jobs;
+    } catch (error) {
+      console.error('Error listing jobs from database:', error);
+      throw error;
     }
-
-    if (filters?.search) {
-      where.OR = [
-        { name: { contains: filters.search, mode: 'insensitive' } },
-        { model: { contains: filters.search, mode: 'insensitive' } },
-        { dataset: { contains: filters.search, mode: 'insensitive' } },
-      ];
-    }
-
-    return await db.trainingJob.findMany({
-      where,
-      orderBy: { createdAt: 'desc' },
-    });
   }
 
   async updateJob(id: string, input: UpdateTrainingJobInput) {

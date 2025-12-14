@@ -12,37 +12,44 @@ export async function GET(request: NextRequest) {
     const search = searchParams.get('search') || undefined;
 
     if (USE_DATABASE) {
-      // Use database
-      const jobs = await trainingService.listJobs({ status, search });
-      
-      // Transform to API format
-      const transformedJobs = jobs.map(job => ({
-        id: job.id,
-        name: job.name,
-        model: job.model,
-        dataset: job.dataset,
-        status: job.status,
-        progress: job.progress,
-        currentStep: job.currentStep,
-        totalSteps: job.totalSteps,
-        loss: job.loss,
-        reward: job.reward,
-        klDivergence: job.klDivergence,
-        learningRate: job.learningRate,
-        batchSize: job.batchSize,
-        epochs: job.epochs,
-        useGRPO: job.useGRPO,
-        error: job.error,
-        startTime: job.startTime.toISOString(),
-        endTime: job.endTime?.toISOString(),
-        createdAt: job.createdAt.toISOString(),
-        updatedAt: job.updatedAt.toISOString(),
-        config: job.config ? JSON.parse(job.config) : null,
-      }));
+      try {
+        // Use database
+        const jobs = await trainingService.listJobs({ status, search });
+        
+        // Transform to API format
+        const transformedJobs = jobs.map(job => ({
+          id: job.id,
+          name: job.name,
+          model: job.model,
+          dataset: job.dataset,
+          status: job.status,
+          progress: job.progress,
+          currentStep: job.currentStep,
+          totalSteps: job.totalSteps,
+          loss: job.loss,
+          reward: job.reward,
+          klDivergence: job.klDivergence,
+          learningRate: job.learningRate,
+          batchSize: job.batchSize,
+          epochs: job.epochs,
+          useGRPO: job.useGRPO,
+          error: job.error,
+          startTime: job.startTime.toISOString(),
+          endTime: job.endTime?.toISOString(),
+          createdAt: job.createdAt.toISOString(),
+          updatedAt: job.updatedAt.toISOString(),
+          config: job.config ? JSON.parse(job.config) : null,
+        }));
 
-      return NextResponse.json(transformedJobs);
-    } else {
-      // Fallback to backend service
+        return NextResponse.json(transformedJobs);
+      } catch (dbError) {
+        console.error('Database error, falling back to backend service:', dbError);
+        // Fall through to backend service
+      }
+    }
+    
+    // Fallback to backend service
+    try {
       const response = await fetch(`${BACKEND_URL}/api/training`, {
         method: 'GET',
         headers: {
@@ -57,13 +64,15 @@ export async function GET(request: NextRequest) {
 
       const data = await response.json();
       return NextResponse.json(data);
+    } catch (backendError) {
+      console.error('Backend service error:', backendError);
+      // Return empty array if both database and backend fail
+      return NextResponse.json([]);
     }
   } catch (error) {
     console.error('Error fetching training jobs:', error);
-    return NextResponse.json(
-      { error: 'Failed to fetch training jobs' },
-      { status: 500 }
-    );
+    // Return empty array instead of error to prevent UI crashes
+    return NextResponse.json([]);
   }
 }
 
