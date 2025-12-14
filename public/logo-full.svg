@@ -1,0 +1,54 @@
+<svg width="120" height="32" viewBox="0 0 120 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient-full" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Logo Icon -->
+  <g transform="translate(0, 0)">
+    <!-- Neural Network Nodes -->
+    <circle cx="8" cy="8" r="2.5" fill="url(#gradient-full)" opacity="0.9"/>
+    <circle cx="16" cy="6" r="2.5" fill="url(#gradient-full)" opacity="0.8"/>
+    <circle cx="24" cy="8" r="2.5" fill="url(#gradient-full)" opacity="0.9"/>
+    
+    <circle cx="10" cy="16" r="2.5" fill="url(#gradient-full)" opacity="0.7"/>
+    <circle cx="16" cy="16" r="3" fill="url(#gradient-full)" opacity="1"/>
+    <circle cx="22" cy="16" r="2.5" fill="url(#gradient-full)" opacity="0.7"/>
+    
+    <circle cx="8" cy="24" r="2.5" fill="url(#gradient-full)" opacity="0.9"/>
+    <circle cx="16" cy="26" r="2.5" fill="url(#gradient-full)" opacity="0.8"/>
+    <circle cx="24" cy="24" r="2.5" fill="url(#gradient-full)" opacity="0.9"/>
+    
+    <!-- Connection Lines -->
+    <path d="M8 8 L10 16 M16 6 L10 16 M16 6 L22 16 M24 8 L22 16" 
+          stroke="url(#gradient-full)" 
+          stroke-width="1.5" 
+          stroke-opacity="0.4" 
+          fill="none"/>
+    <path d="M10 16 L8 24 M10 16 L16 26 M22 16 L16 26 M22 16 L24 24" 
+          stroke="url(#gradient-full)" 
+          stroke-width="1.5" 
+          stroke-opacity="0.4" 
+          fill="none"/>
+    
+    <!-- RL Arrow -->
+    <path d="M16 26 L16 30" 
+          stroke="#10B981" 
+          stroke-width="2" 
+          stroke-linecap="round"
+          marker-end="url(#arrowhead-full)"/>
+    <defs>
+      <marker id="arrowhead-full" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+        <polygon points="0 0, 6 3, 0 6" fill="#10B981"/>
+      </marker>
+    </defs>
+  </g>
+  
+  <!-- Text: Oumi RL Studio -->
+  <text x="36" y="20" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700" fill="white">
+    Oumi RL Studio
+  </text>
+</svg>
+

@@ -1,0 +1,7 @@
+
+> oumi-service@1.0.0 dev
+> tsx watch index.ts
+
+Oumi Service running on port 3001
+WebSocket server running on port 3002
+ZAI SDK initialized successfully

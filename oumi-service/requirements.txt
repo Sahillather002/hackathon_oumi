@@ -1,0 +1,32 @@
+# FastAPI and server
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+pydantic==2.10.5
+pydantic-settings==2.7.1
+
+# Oumi and ML libraries
+oumi==0.1.0
+torch==2.5.1
+transformers==4.48.2
+datasets==3.2.0
+trl==0.12.2
+accelerate==1.2.1
+peft==0.14.0
+
+# Utilities
+python-dotenv==1.0.1
+redis==5.2.1
+celery==5.4.0
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.10
+
+# Monitoring and logging
+sentry-sdk==2.19.2
+python-json-logger==3.2.1
+
+# OpenAI for LLM-as-a-Judge
+openai==1.59.6
+
+# AWS for storage
+boto3==1.35.92
