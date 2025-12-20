@@ -1,0 +1,1104 @@
+
+> dev
+> motia dev
+
+Redis Memory Server started
+[32mΓ₧£ [REGISTERED][39m [1m[34mFlow[39m[22m [1m[36mOumiRL[39m[22m registered
+[32mΓ₧£ [REGISTERED][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-stop-handler.step.ts[39m[22m registered
+[32mΓ₧£ [REGISTERED][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m registered
+[32mΓ₧£ [REGISTERED][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m registered
+[32mΓ₧£ [REGISTERED][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\metrics-updater.step.ts[39m[22m registered
+[32mΓ₧£ [REGISTERED][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m registered
+[32mΓ₧£ [REGISTERED][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\dataset-processor.step.ts[39m[22m registered
+[32mΓ₧£ [REGISTERED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\training-stop.step.ts[39m[22m registered
+[32mΓ₧£ [REGISTERED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\training-list.step.ts[39m[22m registered
+[32mΓ₧£ [REGISTERED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\training-detail.step.ts[39m[22m registered
+[32mΓ₧£ [REGISTERED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\training-delete.step.ts[39m[22m registered
+[32mΓ₧£ [REGISTERED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\training-create.step.ts[39m[22m registered
+[32mΓ₧£ [REGISTERED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\synthesis-create.step.ts[39m[22m registered
+[32mΓ₧£ [REGISTERED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\models-list.step.ts[39m[22m registered
+[32mΓ₧£ [REGISTERED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\health.step.ts[39m[22m registered
+[32mΓ₧£ [REGISTERED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\health-api.step.ts[39m[22m registered
+[32mΓ₧£ [REGISTERED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\evaluation-create.step.ts[39m[22m registered
+[32mΓ₧£ [REGISTERED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\datasets-list.step.ts[39m[22m registered
+[32mΓ₧£ [REGISTERED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\datasets-create.step.ts[39m[22m registered
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[motia-plugins] Γ£ô Validated 5 plugin(s) successfully
+[34mΓä╣[39m [1m[36m[motia-plugins][39m[22m Initialized with 5 plugin(s)
+[34mΓä╣[39m [1m[36m[motia-plugins][39m[22m Dev server configured, HMR enabled
+[34mΓä╣[39m [1m[36m[motia-plugins][39m[22m Watching for config file changes
+[34mΓä╣[39m [1m[36m[motia-plugins][39m[22m Build started
+[34mΓä╣[39m [1m[36m[motia-plugins][39m[22m Loading plugins virtual module
+[34mΓä╣[39m [1m[36m[motia-plugins][39m[22m Generating plugin code...
+[34mΓä╣[39m [1m[36m[motia-plugins][39m[22m Plugin code generated successfully
+[34mΓä╣[39m [1m[36m[motia-plugins][39m[22m Plugin system warmed up eagerly
+≡ƒÜÇ Server ready and listening on port 3000
+≡ƒöù Open http://localhost:3000 to open workbench ≡ƒ¢á∩╕Å
+[90m[8:06:40 PM][39m [90mB6P7U-5000286[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:06:46 PM][39m [90mNQ6WS-5006295[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:06:52 PM][39m [90mHZQC9-5012273[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:06:58 PM][39m [90mEYHEK-5018274[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:07:04 PM][39m [90mDDBRU-5024275[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:07:10 PM][39m [90mRVQVG-5030281[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:07:16 PM][39m [90mHJ336-5036280[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:07:22 PM][39m [90mUFMQ9-5042289[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:07:28 PM][39m [90mUNJM5-5048278[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:07:34 PM][39m [90mK435J-5054296[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:07:40 PM][39m [90m4RDF6-5060276[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:07:46 PM][39m [90mWSN4S-5066290[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:07:52 PM][39m [90mY49TH-5072303[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:07:58 PM][39m [90mU1JRE-5078300[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:08:05 PM][39m [90mJEFFX-5085298[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:08:11 PM][39m [90mZVKVS-5091279[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:08:17 PM][39m [90mE8NHA-5097310[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:08:23 PM][39m [90mPH6V5-5103282[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:08:29 PM][39m [90mNTYKN-5109287[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:08:35 PM][39m [90m7MN7Y-5115288[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:08:41 PM][39m [90mNFMCP-5121295[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:08:47 PM][39m [90m7VRF8-5127306[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:08:53 PM][39m [90m8T43S-5133280[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:08:59 PM][39m [90mC5YHJ-5139293[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:09:05 PM][39m [90m31XV9-5145280[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:09:11 PM][39m [90mDAMNB-5151294[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:09:17 PM][39m [90mG46JR-5157301[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:09:24 PM][39m [90m2WPPS-5164282[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:09:30 PM][39m [90mS5Z82-5170282[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:09:36 PM][39m [90m73R75-5176277[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:09:42 PM][39m [90mBQDBH-5182290[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:09:48 PM][39m [90mSDYSW-5188285[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:09:54 PM][39m [90mVG3CR-5194301[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:10:00 PM][39m [90mHM4MP-5200285[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:10:06 PM][39m [90mJESEC-5206269[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:10:12 PM][39m [90mD1XZD-5212270[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:10:18 PM][39m [90m3RTZB-5218287[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:10:24 PM][39m [90mGDUZH-5224279[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:10:31 PM][39m [90m27KTS-5230287[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:10:39 PM][39m [90mNY7BH-5238378[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:10:46 PM][39m [90mSPPYD-5245277[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:10:53 PM][39m [90mMGVSF-5252455[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:11:01 PM][39m [90m932ZJ-5261283[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:11:07 PM][39m [90m7DKXC-5267301[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:11:14 PM][39m [90mKPY2N-5273303[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:11:20 PM][39m [90mD3TRA-5280285[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:11:27 PM][39m [90mFNGX3-5286750[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:11:34 PM][39m [90mBW1F2-5293294[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:11:41 PM][39m [90mNF7X6-5300308[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:11:48 PM][39m [90mBT5XN-5307302[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:11:55 PM][39m [90mKFAUT-5314300[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:12:02 PM][39m [90mX8VSU-5321288[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:12:10 PM][39m [90m4Z6M5-5328488[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:12:17 PM][39m [90mQWNMF-5336295[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:12:24 PM][39m [90m6T898-5343281[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:12:32 PM][39m [90mXABTU-5350358[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:12:41 PM][39m [90mD12RN-5358392[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:12:49 PM][39m [90mETKCD-5367314[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:12:57 PM][39m [90m9JSMV-5375319[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:13:06 PM][39m [90mCQ252-5383322[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:13:15 PM][39m [90mRSR7Y-5391309[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:13:25 PM][39m [90m8NVZ6-5401456[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:13:36 PM][39m [90mHWU32-5411420[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:13:44 PM][39m [90m4U4D9-5417060[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:13:51 PM][39m [90mPZV4N-5424478[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:13:59 PM][39m [90mP2M39-5431945[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:14:10 PM][39m [90m31N4X-5439522[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:14:24 PM][39m [90mP7CRC-5451148[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:14:41 PM][39m [90mPTMMS-5464516[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:14:56 PM][39m [90mNRVFJ-5476662[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:15:01 PM][39m [90mCWN1C-5480356[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:15:12 PM][39m [90m6N5US-5491406[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:15:22 PM][39m [90mG78RM-5500615[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[90m[8:15:28 PM][39m [90mRGPYJ-5505635[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36mCannot read properties of undefined (reading 'split')[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)[39m
+Γöö [90m}[39m
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  code: null,
+  stack: '    at handler (file:///C:/Tools/acli/hackathon_oumi/motia_backend/.motia/compiled/src/api/training-list.step.js:12:49)'
+}
+[34mΓä╣[39m [1m[36m[motia-plugins][39m[22m Injecting plugin CSS imports
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[32mΓ₧£ [REGISTERED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\test-simple.step.ts[39m[22m registered
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\test-simple.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[32mΓ₧£ [REGISTERED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\test-request.step.ts[39m[22m registered
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\test-request.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\training-list.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\training-create.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\training-stop.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\datasets-create.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\evaluation-create.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\synthesis-create.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\datasets-create.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\health.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\test-simple.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\health-api.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\test-request.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\training-detail.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\training-delete.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\models-list.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\evaluation-create.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\datasets-list.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\synthesis-create.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\training-create.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\training-stop.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\dataset-processor.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\training-list.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\metrics-updater.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-stop-handler.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m updated
+[90m[12:19:39 AM][39m [90mYXC56-0178405[39m [31m[ERROR][39m [1m[36mmodels-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36m[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m[39m
+Γöö [90m}[39m
+{ message: '', code: null, stack: '' }
+[90m[12:19:46 AM][39m [90mGCR2S-0184847[39m [31m[ERROR][39m [1m[36mdatasets-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36m[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m[39m
+Γöö [90m}[39m
+{ message: '', code: null, stack: '' }
+[90m[12:19:53 AM][39m [90mZ56JM-0189274[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36m[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m[39m
+Γöö [90m}[39m
+{ message: '', code: null, stack: '' }
+[90m[12:47:39 AM][39m [90m26YKF-1853991[39m [31m[ERROR][39m [1m[36mmodels-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36m[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m[39m
+Γöö [90m}[39m
+{ message: '', code: null, stack: '' }
+[90m[12:47:46 AM][39m [90mPURBD-1861602[39m [31m[ERROR][39m [1m[36mdatasets-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36m[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m[39m
+Γöö [90m}[39m
+{ message: '', code: null, stack: '' }
+[90m[12:47:49 AM][39m [90m25Y69-1862448[39m [31m[ERROR][39m [1m[36mtraining-list[39m[22m [API] Internal server error
+Γö£ error: [90m{[39m
+Γöé Γö£ message: [36m[39m
+Γöé Γö£ code: null
+Γöé Γöö stack: [36m[39m
+Γöö [90m}[39m
+{ message: '', code: null, stack: '' }
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[32mΓ₧£ [REGISTERED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\test-state.step.ts[39m[22m registered
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\test-state.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\models-list.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\datasets-list.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\datasets-create.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\training-list.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\training-create.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\training-detail.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\training-stop.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\training-delete.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\evaluation-create.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\synthesis-create.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\dataset-processor.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m updated
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\training-processor.step.ts[39m[22m emits to [33mtraining-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m emits to [33msynthesis-complete[39m, but there is no subscriber defined
+[33mΓÜá[39m [33m[WARNING][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\evaluation-processor.step.ts[39m[22m emits to [33mevaluation-complete[39m, but there is no subscriber defined
+[33mΓ₧£ [UPDATED][39m [1m[35mStep[39m[22m [90m(Event)[39m [1m[36msrc\events\synthesis-processor.step.ts[39m[22m updated
+SyntaxError: Expected property name or '}' in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at parse (C:\Tools\acli\hackathon_oumi\motia_backend\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Tools\acli\hackathon_oumi\motia_backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Tools\acli\hackathon_oumi\motia_backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Tools\acli\hackathon_oumi\motia_backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Tools\acli\hackathon_oumi\motia_backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:524:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[31mΓ₧£ [INVALID EMIT][39m [1m[35mStep[39m[22m [90m(API)[39m [1m[36msrc\api\training-create.step.ts[39m[22m tried to emit an event not defined in the step config: [33mundefined[39m
+[BullMQ] Worker error for topic metrics-update, step metrics-updater: BullMQAdapterError: Failed to create worker for topic metrics-update, step metrics-updater

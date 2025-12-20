@@ -1,0 +1,108 @@
+[
+  {
+    "id": "hello-world-flow",
+    "config": {
+      "src\\hello\\log-greeting.step.js": {
+        "x": 700,
+        "y": 44
+      },
+      "src\\hello\\hello-api.step.ts": {
+        "x": 0,
+        "y": 0
+      },
+      "src\\hello\\process_greeting_step.py": {
+        "x": 355,
+        "y": 35
+      }
+    }
+  },
+  {
+    "id": "OumiRL",
+    "config": {
+      "src\\events\\training-stop-handler.step.ts": {
+        "x": 285,
+        "y": 34
+      },
+      "src\\events\\training-processor.step.ts": {
+        "x": 293,
+        "y": 638
+      },
+      "src\\events\\synthesis-processor.step.ts": {
+        "x": 286,
+        "y": 789
+      },
+      "src\\events\\metrics-updater.step.ts": {
+        "x": 526,
+        "y": 638
+      },
+      "src\\events\\evaluation-processor.step.ts": {
+        "x": 284,
+        "y": 1393
+      },
+      "src\\events\\dataset-processor.step.ts": {
+        "x": 294,
+        "y": 1695
+      },
+      "src\\api\\training-stop.step.ts": {
+        "x": 0,
+        "y": 0
+      },
+      "src\\api\\training-list.step.ts": {
+        "x": 42,
+        "y": 151
+      },
+      "src\\api\\training-detail.step.ts": {
+        "x": 25,
+        "y": 302
+      },
+      "src\\api\\training-delete.step.ts": {
+        "x": 13,
+        "y": 453
+      },
+      "src\\api\\training-create.step.ts": {
+        "x": 15,
+        "y": 601
+      },
+      "src\\api\\synthesis-create.step.ts": {
+        "x": 21,
+        "y": 755
+      },
+      "src\\api\\models-list.step.ts": {
+        "x": 38,
+        "y": 906
+      },
+      "src\\api\\health.step.ts": {
+        "x": 67,
+        "y": 1057
+      },
+      "src\\api\\health-api.step.ts": {
+        "x": 59,
+        "y": 1368
+      },
+      "src\\api\\evaluation-create.step.ts": {
+        "x": 30,
+        "y": 1359
+      },
+      "src\\api\\datasets-list.step.ts": {
+        "x": 42,
+        "y": 1510
+      },
+      "src\\api\\datasets-create.step.ts": {
+        "x": 38,
+        "y": 1661
+      },
+      "src\\api\\test-simple.step.ts": {
+        "x": 51,
+        "y": 1824
+      },
+      "src\\api\\test-request.step.ts": {
+        "x": 42,
+        "y": 1976
+      },
+      "src\\api\\test-state.step.ts": {
+        "x": 34,
+        "y": 2128
+      }
+    }
+  }
+]
