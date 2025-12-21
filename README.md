@@ -104,45 +104,76 @@ mini-services/
 - Preview and export
 - Multiple difficulty levels
 
-## 🛠️ Tech Stack
 
-### Frontend
-- Next.js 15.3.5
-- TypeScript 5
-- Tailwind CSS v4
-- shadcn/ui components
-- Framer Motion 12.23.26
-- Recharts 2.15.4
-- TanStack Query 5.82.0
-- Zustand 5.0.6
-
-### Backend
-- Node.js
-- Express.js
-- WebSocket (ws)
-- z-ai-web-dev-sdk
-- TypeScript
-
-## 📊 API Endpoints
-
-### Models
-- `GET /api/proxy/models` - List available models
-
-### Datasets
-- `GET /api/proxy/datasets` - List datasets
-- `POST /api/proxy/datasets` - Create dataset
-
-### Training
-- `GET /api/proxy/training` - List training jobs
-- `POST /api/proxy/training` - Create training job
-- `GET /api/proxy/training/:id` - Get training job details
-
-## 📈 Performance
-
-- **Lighthouse Score**: 95+
-- **First Contentful Paint**: < 2s
-- **Largest Contentful Paint**: < 3s
-- **Cumulative Layout Shift**: < 0.1
+\`\`\`mermaid
+graph TB
+    subgraph Frontend["🎨 Frontend Layer - Next.js + React"]
+        Models["📋 Models Page"]
+        Datasets["📊 Datasets Page"]
+        Training["🚀 Training Page"]
+        Playground["🎮 Playground Page"]
+        Client["🔌 Oumi Client<br/>(axios)"]
+        
+        Models --> Client
+        Datasets --> Client
+        Training --> Client
+        Playground --> Client
+    end
+    
+    subgraph Motia["⚡ MOTIA RUNTIME - Single Service<br/>━━━━━━━━━━━━━━━━━━━━━━━"]
+        subgraph API["📡 API Steps (16)"]
+            API1["models-list.step.ts"]
+            API2["datasets-list.step.ts"]
+            API3["training-create.step.ts"]
+            API4["training-stop.step.ts"]
+            API5["evaluation-create.step.ts"]
+            API6["synthesis-create.step.ts"]
+        end
+        
+        EventBus["🔄 Event Bus<br/>(Built-in)"]
+        
+        subgraph Events["⚡ Event Steps (7)"]
+            Event1["🔄 training-simulator<br/>Listens: start-training<br/>Updates every 5s"]
+            Event2["⚖️ evaluation-processor<br/>Listens: process-evaluation"]
+            Event3["🔬 synthesis-processor<br/>Listens: process-synthesis"]
+        end
+        
+        Observability["📊 Built-in Observability<br/>Traces | Logs | Metrics"]
+    end
+    
+    subgraph Database["🗄️ Supabase Database - PostgreSQL"]
+        DB1[("📦 models<br/>4 rows")]
+        DB2[("📁 datasets<br/>1+ rows")]
+        DB3[("🚂 training_jobs<br/>dynamic")]
+        DB4[("📈 training_metrics<br/>history")]
+        DB5[("⚖️ evaluation_jobs")]
+        DB6[("🔬 synthesis_jobs")]
+        DB7[("🗄️ state_store")]
+    end
+    
+    Client -->|"REST API"| API
+    Client -->|"WebSocket"| EventBus
+    
+    API3 -.->|"emit('start-training')"| EventBus
+    API4 -.->|"emit('stop-training')"| EventBus
+    API5 -.->|"emit('process-evaluation')"| EventBus
+    API6 -.->|"emit('process-synthesis')"| EventBus
+    
+    EventBus -->|"auto-route"| Event1
+    EventBus -->|"auto-route"| Event2
+    EventBus -->|"auto-route"| Event3
+    
+    API --> Database
+    Events --> Database
+    
+    style Frontend fill:#6366f1,stroke:#4f46e5,color:#fff
+    style Motia fill:#10b981,stroke:#059669,color:#fff
+    style API fill:#3b82f6,stroke:#2563eb,color:#fff
+    style Events fill:#8b5cf6,stroke:#7c3aed,color:#fff
+    style EventBus fill:#fbbf24,stroke:#f59e0b,color:#000
+    style Database fill:#f59e0b,stroke:#d97706,color:#fff
+    style Observability fill:#06b6d4,stroke:#0891b2,color:#fff
+\`\`\`
 
 ## 🤝 Contributing
 
